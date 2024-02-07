@@ -160,15 +160,15 @@
 
 /* FlexNine */
 
-.flexNine {
-    width: 450px;
-    height: 250px;
-    background-color: #eeeeee;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-.flexNine #special {
-    align-self: flex-end;
-}
+    .flexNine {
+        width: 450px;
+        height: 250px;
+        background-color: #eeeeee;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    
+    .flexNine #special {
+        align-self: flex-end;
+    }
