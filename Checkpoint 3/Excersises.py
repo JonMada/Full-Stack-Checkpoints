@@ -40,7 +40,7 @@ new_string = first_word + string_variable[4:]
 print(new_string)
 
 #Exercise 7.1: Dynamic behavior
-string_variable = "Externo es un string"
+string_variable = "Esto es una string en la que puedo cambiar la primera palabra de manera dinámica"
 primera_palabra, _, resto_frase = string_variable.partition(' ')
 new_string = primera_palabra.upper() + _ + resto_frase
 print(new_string)
