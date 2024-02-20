@@ -51,6 +51,17 @@ primera_palabra = string_variable.strip(' ')[0]
 resto_frase = string_variable[len(primera_palabra):].lstrip()
 new_string = primera_palabra.upper() + ' ' + resto_frase
 
+'''
+Esto se conoce como "slicing" en Python
+
+string_variable: Es la cadena original en la que estamos trabajando, en este caso, "Externo es un string".
+len(primera_palabra): Esto devuelve la longitud de la primera palabra en la cadena.
+En este caso, la primera palabra es "Externo", por lo que len(primera_palabra) devolvería 7, ya que "Externo" tiene 7 caracteres.
+string_variable[len(primera_palabra):]: Esto significa que estamos tomando una porción de string_variable desde el índice que 
+representa el final de la primera palabra hasta el final de la cadena. Por lo tanto, estamos excluyendo la primera palabra y 
+tomando el resto de la cadena.
+'''
+
 # Exercise 8: Use string interpolation to print out a sentence that contains your number variable.
 number_variable = 6
 string_interpolation_example = f'Esto es una ejemplo de string interpolation en el que introducimos el número {number_variable}'
