@@ -39,6 +39,12 @@ first_word = first_word.upper()
 new_string = first_word + string_variable[4:]
 print(new_string)
 
+#Exercise 7.1: Dynamic behavior
+string_variable = "Externo es un string"
+primera_palabra, _, resto_frase = string_variable.partition(' ')
+new_string = primera_palabra.upper() + _ + resto_frase
+print(new_string)
+
 # Exercise 8: Use string interpolation to print out a sentence that contains your number variable.
 number_variable = 6
 string_interpolation_example = f'Esto es una ejemplo de string interpolation en el que introducimos el número {number_variable}'
