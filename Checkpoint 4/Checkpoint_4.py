@@ -36,11 +36,9 @@ mi_lista[0] = 'Buenos días'
 print(mi_lista)
 
 #Exercise 8: Sort your list alphabetically.
-mi_lista_sorted = sorted(mi_lista,reverse=True)
+mi_lista_sorted = sorted(mi_lista)
 print(mi_lista_sorted)
 
 #Exercise 9: Use reassignment to add an element to your tuple.
-mi_tupla = list(mi_tupla)
-mi_tupla += ['otra letra']
-mi_tupla = tuple(mi_tupla)
+mi_tupla += ('otra letra')
 print(mi_tupla)
